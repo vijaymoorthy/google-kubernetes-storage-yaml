@@ -16,4 +16,9 @@ In order to access persistence volume , we use PVC claim. it is created as given
 ## to test , if the above pod is realy persistence
 ![image](https://github.com/vijaymoorthy/google-kubernetes-storage-yaml/assets/5792365/e0de96be-8e50-4aa7-946a-2268e7e7bf35)
 
+# Stateful pod
+### creates a StatefulSet that includes a LoadBalancer service and three replicas of a Pod containing an nginx container and a volumeClaimTemplate for 30 gigabyte PVCs with the name hello-web-disk. The nginx containers mount the PVC called hello-web-disk at /var/www/html as in the previous task.
+
+![image](https://github.com/vijaymoorthy/google-kubernetes-storage-yaml/assets/5792365/efe7353a-8dfa-4bd6-a152-69d96833cb0c)
+
 
